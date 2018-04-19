@@ -9,7 +9,7 @@ $this.pushpin({
 });
 });*/
 
-
+//pushpin
 $(document).ready(function(){
     $('.target').pushpin({
       top: 80,
@@ -18,12 +18,8 @@ $(document).ready(function(){
     });
 });
 
-$('.tabs-wrapper .row').pushpin('remove');
 
-var elem = document.querySelector('.parallax');
- var instance = M.Parallax.init(elem, options);
-
- // Or with jQuery
+ // parallax jQuery
 
  $(document).ready(function(){
    $('.parallax').parallax();
