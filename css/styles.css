@@ -8,6 +8,7 @@ top:0px;
 nav ul li a:hover, nav ul li a.active {
 background-color: rgba(0,0,0,.1);
 }
+
 footer {
 padding-left: 0;
 }
@@ -55,7 +56,14 @@ span {
   background-color:  lighten-4;
   color: #ff6f00;
   border-style: none;
-};
+
+}
+
+.btn_css_calculator:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color:#212121;
+
+}
 
 #myform {
   margin-left:225px;
@@ -66,14 +74,15 @@ h1 {
   text-align: center;
   font-size: 64px;
   margin-top: 20px;
+
 }
 
 #large_btn {
   width: 675px;
   height: 100px;
   text-align: center;
-  font-size: 30px;
-  color:#ff6f00;
+  font-size: 80px;
+  color:#212121;
 }
 
 .#plus_btn,  {
@@ -97,4 +106,76 @@ h1 {
 
 .calculate_container{
   text-align: center;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: repeat(2,1fr);
+}
+
+/*slider*/
+
+.nav_color{
+  background-color: #ffb300;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container_slider {
+  padding:150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnl, #btnr {
+  font-size: 100px;
+  font-weight: bold;
+  color:#b388ff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wrapper1 {
+  border: 40px solid #212121;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+/*count tool*/
+
+
+#str {
+  margin-top: 100px;
+  width: 450px;
+  height: 40px;
+  font-size: 32px;
+  color:#01579b;
+}
+
+#output {
+  margin-top: 45px;
+  font-size: 32px;
+}
+
+#btn {
+ width: 250px;
+ height: 80px;
+ color: #e0f2f1;
+ background-color: #01579b;
+ border-style: none;
+ border-radius: 15px;
+ margin-top: 100px;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+#btn:hover{
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.container_counttool {
+  text-align:center;
 }
