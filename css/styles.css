@@ -286,7 +286,6 @@ textarea {
 
 #wrapper2 {
   width: 450px;
-  background-color: #000365;
   margin-top: 120px;
   margin-left: 295px;
   padding-bottom:30px;
@@ -310,4 +309,12 @@ ul{
 
 h1{
   margin-top: 30px;
+}
+
+/*footer*/
+
+.footer_color {
+  background-color: #ffb300;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding-bottom: 100px;
 }

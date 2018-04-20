@@ -3,11 +3,11 @@
 
 <head>
     <!-- import style.css -->
-  <link href="css/styles.css" rel="stylesheet" />
+  <link href="../css/styles.css" rel="stylesheet" />
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -19,16 +19,19 @@
   <nav class="pushpin-demo-nav pinned" data-target="blue">
     <div class="nav-wrapper light-blue">
       <div class="container">
-        <a href="#" class="brand-logo">Blue</a>
+        <a href="#" class="brand-logo">Todo list</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#!">Blue Link 1</a></li>
-          <li><a href="#!">Blue Link 2</a></li>
-          <li><a href="#!">Blue Link 3</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <h1>HELLO WORLD</h1>
+  <div class="row-container">
+    <div id = "wrapper2">
+      <h1>Todo List</h1>
+      <input id ="task"><button id="add">Add Task</button>
+      <!--<hr>-->
+    </div>
+  </div>
 </div>
 
 
@@ -37,22 +40,25 @@
   <nav class="pushpin-demo-nav" data-target="black">
     <div class="nav-wrapper black">
       <div class="container">
-        <a href="#" class="brand-logo">Green</a>
+        <a href="#" class="brand-logo">Your list</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#!">Green Link 1</a></li>
-          <li><a href="#!">Green Link 2</a></li>
-          <li><a href="#!">Green Link 3</a></li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="row-container">
+      <div id ="todos"></div>
+  </div>
 </div>
 
-<script type="text/javascript" src="js/script.js"></script>
+
+
+<script type="text/javascript" src="../js/script.js"></script>
   <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="../js/materialize.min.js"></script>
 <script type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
 </body>
 
 </html>

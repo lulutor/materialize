@@ -1,13 +1,13 @@
 
 
-/*$('.pushpin-demo-nav').each(function() {
+$('.pushpin-demo-nav').each(function() {
 var $this = $(this);
 var $target = $('#' + $(this).attr('blue'));
 $this.pushpin({
   top: $target.offset().top,
   bottom: $target.offset().top + $target.outerHeight() - $this.height()
 });
-});*/
+});
 
 //pushpin
 $(document).ready(function(){
